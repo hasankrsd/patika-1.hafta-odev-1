@@ -13,6 +13,7 @@ else{
     $height = 170; 
     $age = 25; 
 }
+//Kadınsa ayrı erkekse ayrı hesaplama yapılır
 
 if ($gender=="male") {
     $bmr=88.362+(13.397*$weight)+(4.799*$height)-(5.677*$age);
@@ -56,6 +57,7 @@ $guess = "1470";
 <body>
     <div class="row">
         <div class="container">
+            <!-- Veri alınabilmesi için ilgili form -->
             <div class="position-absolute top-50 start-50 translate-middle">
                 <div class="col-lg-12 selectMargin">
                     <h3>BMR Hesaplamanızı Buradan Yapabilirsiniz</h3>
@@ -105,6 +107,8 @@ $guess = "1470";
 
                 </div>
                 <div class="col-lg-12">
+                        <!-- İşlem sonucunun yazdırıldığı yer -->
+
                     <h3>Bazal Metabolizma Hızınız (BMR): <?php echo $bmr; ?> </h3>
                     <h4>Tahmin Değeri: <?php echo $guess ?></h4>
 
@@ -123,7 +127,6 @@ $guess = "1470";
             </div>
         </div>
     </div>
-    <!-- Ajax Connection For English -->
 
 </body>
 
