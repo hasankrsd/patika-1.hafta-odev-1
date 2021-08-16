@@ -44,6 +44,7 @@
 
                     <div class="form-group row">
                         <div class="col-md-12 buttons">
+    <!-- Javascript ile butonlara href özelliği eklendi böylece hem input button kullanılabildi hem de 2 defa form yazmak gerekmedi -->
                             <button type="button" name="result" class="btn btn-primary btn-lg btn-block" value="1. Ödeve Git" onclick="location.href='odev1_1.php';" >1.Ödeve
                                 Git</button>
                             <button type="button" name="result" class="btn btn-primary btn-lg btn-block" value="2. Ödeve Git" onclick="location.href='odev1_2.php';" >2.Ödeve
