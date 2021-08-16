@@ -9,6 +9,7 @@ else{
 
     $age = 25; 
 }
+//Yaşa göre atandığı grup belirlenir
 
 if ($age >=0 && $age <=14) {
     $group = "Çocuk"; 
@@ -59,6 +60,7 @@ if ($age >=0 && $age <=14) {
         <div class="container">
             <div class="position-absolute top-50 start-50 translate-middle">
                 <div class="col-lg-12 selectMargin">
+                    <!-- Verinin alınabilmesi için olan form -->
                     <h3>Yaş Grubunuzu Burdan Belirleyebirsiniz</h3>
                     <form action="#" method="POST">
                         <div class="form-group row">
@@ -80,7 +82,7 @@ if ($age >=0 && $age <=14) {
 
                 </div>
                 <div class="col-lg-12">
-
+<!-- İşlem sonucunun yazdırıldığı yer -->
                     <h3>Yaş Grubunuz: <?php echo $group; ?> </h3>
 
 
@@ -90,7 +92,6 @@ if ($age >=0 && $age <=14) {
             </div>
         </div>
     </div>
-    <!-- Ajax Connection For English -->
 
 </body>
 
